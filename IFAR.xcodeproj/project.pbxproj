@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20C6DB02539ADF900614215 /* LabelScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A20C6DA52539ADF800614215 /* LabelScene.sks */; };
+		A20C6DB12539ADF900614215 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DA62539ADF800614215 /* UIImage+CVPixelBuffer.swift */; };
+		A20C6DB22539ADF900614215 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DA82539ADF800614215 /* StatusViewController.swift */; };
+		A20C6DB32539ADF900614215 /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DA92539ADF800614215 /* YOLO.swift */; };
+		A20C6DB42539ADF900614215 /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DAA2539ADF800614215 /* ViewController+ARSessionDelegate.swift */; };
+		A20C6DB52539ADF900614215 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DAB2539ADF900614215 /* Helpers.swift */; };
+		A20C6DB62539ADF900614215 /* Shutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DAC2539ADF900614215 /* Shutter.swift */; };
+		A20C6DB72539ADF900614215 /* CUSTOMTinyCOCO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DAD2539ADF900614215 /* CUSTOMTinyCOCO.mlmodel */; };
+		A20C6DB82539ADF900614215 /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DAE2539ADF900614215 /* CVPixelBuffer+Helpers.swift */; };
+		A20C6DB92539ADF900614215 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C6DAF2539ADF900614215 /* BoundingBox.swift */; };
+		A20E8B682539BB90006F6B33 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A20E8B672539BB90006F6B33 /* README.md */; };
 		A28541F02539ACE900ED07BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28541EF2539ACE900ED07BB /* AppDelegate.swift */; };
-		A28541F22539ACE900ED07BB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A28541F12539ACE900ED07BB /* art.scnassets */; };
 		A28541F42539ACE900ED07BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28541F32539ACE900ED07BB /* ViewController.swift */; };
 		A28541F72539ACE900ED07BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28541F52539ACE900ED07BB /* Main.storyboard */; };
 		A28541F92539ACEC00ED07BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28541F82539ACEC00ED07BB /* Assets.xcassets */; };
@@ -35,9 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A20C6DA52539ADF800614215 /* LabelScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LabelScene.sks; sourceTree = "<group>"; };
+		A20C6DA62539ADF800614215 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		A20C6DA82539ADF800614215 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		A20C6DA92539ADF800614215 /* YOLO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		A20C6DAA2539ADF800614215 /* ViewController+ARSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSessionDelegate.swift"; sourceTree = "<group>"; };
+		A20C6DAB2539ADF900614215 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A20C6DAC2539ADF900614215 /* Shutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shutter.swift; sourceTree = "<group>"; };
+		A20C6DAD2539ADF900614215 /* CUSTOMTinyCOCO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CUSTOMTinyCOCO.mlmodel; sourceTree = "<group>"; };
+		A20C6DAE2539ADF900614215 /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		A20C6DAF2539ADF900614215 /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		A20E8B672539BB90006F6B33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A28541EC2539ACE900ED07BB /* IFAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28541EF2539ACE900ED07BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A28541F12539ACE900ED07BB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A28541F32539ACE900ED07BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A28541F62539ACE900ED07BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A28541F82539ACEC00ED07BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +99,7 @@
 		A28541E32539ACE900ED07BB = {
 			isa = PBXGroup;
 			children = (
+				A20E8B672539BB90006F6B33 /* README.md */,
 				A28541EE2539ACE900ED07BB /* IFAR */,
 				A28542052539ACEC00ED07BB /* IFARTests */,
 				A28542102539ACEC00ED07BB /* IFARUITests */,
@@ -99,8 +120,17 @@
 		A28541EE2539ACE900ED07BB /* IFAR */ = {
 			isa = PBXGroup;
 			children = (
+				A20C6DAF2539ADF900614215 /* BoundingBox.swift */,
+				A20C6DA82539ADF800614215 /* StatusViewController.swift */,
+				A20C6DAD2539ADF900614215 /* CUSTOMTinyCOCO.mlmodel */,
+				A20C6DAE2539ADF900614215 /* CVPixelBuffer+Helpers.swift */,
+				A20C6DAB2539ADF900614215 /* Helpers.swift */,
+				A20C6DA52539ADF800614215 /* LabelScene.sks */,
+				A20C6DAC2539ADF900614215 /* Shutter.swift */,
+				A20C6DA62539ADF800614215 /* UIImage+CVPixelBuffer.swift */,
+				A20C6DAA2539ADF800614215 /* ViewController+ARSessionDelegate.swift */,
+				A20C6DA92539ADF800614215 /* YOLO.swift */,
 				A28541EF2539ACE900ED07BB /* AppDelegate.swift */,
-				A28541F12539ACE900ED07BB /* art.scnassets */,
 				A28541F32539ACE900ED07BB /* ViewController.swift */,
 				A28541F52539ACE900ED07BB /* Main.storyboard */,
 				A28541F82539ACEC00ED07BB /* Assets.xcassets */,
@@ -231,8 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28541F22539ACE900ED07BB /* art.scnassets in Resources */,
+				A20C6DB02539ADF900614215 /* LabelScene.sks in Resources */,
 				A28541FC2539ACEC00ED07BB /* LaunchScreen.storyboard in Resources */,
+				A20E8B682539BB90006F6B33 /* README.md in Resources */,
 				A28541F92539ACEC00ED07BB /* Assets.xcassets in Resources */,
 				A28541F72539ACE900ED07BB /* Main.storyboard in Resources */,
 			);
@@ -259,8 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20C6DB22539ADF900614215 /* StatusViewController.swift in Sources */,
+				A20C6DB82539ADF900614215 /* CVPixelBuffer+Helpers.swift in Sources */,
+				A20C6DB52539ADF900614215 /* Helpers.swift in Sources */,
+				A20C6DB92539ADF900614215 /* BoundingBox.swift in Sources */,
 				A28541F42539ACE900ED07BB /* ViewController.swift in Sources */,
+				A20C6DB72539ADF900614215 /* CUSTOMTinyCOCO.mlmodel in Sources */,
+				A20C6DB12539ADF900614215 /* UIImage+CVPixelBuffer.swift in Sources */,
+				A20C6DB42539ADF900614215 /* ViewController+ARSessionDelegate.swift in Sources */,
+				A20C6DB32539ADF900614215 /* YOLO.swift in Sources */,
 				A28541F02539ACE900ED07BB /* AppDelegate.swift in Sources */,
+				A20C6DB62539ADF900614215 /* Shutter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

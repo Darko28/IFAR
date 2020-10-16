@@ -48,5 +48,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Add Photo</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo Usage</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The location is used for augmenting reality</string>
 </dict>
 </plist>
